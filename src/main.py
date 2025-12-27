@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="GitHub Metrics API")
+app = FastAPI(title="Product Metrics API")
 
 @app.get("/")
 def root():
